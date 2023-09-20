@@ -1,0 +1,186 @@
+/* Q#: All the elements have margin of 0 from the top, bottom, left, and right */
+* {
+    margin: 0;
+    }
+
+/* Q1. All the HTML5 new elements (The new semantic elements) are displayed as block-level elements (for old browsers that don’t support them). */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+  }
+
+/* Q2. The style of the <body> element */
+body {
+  color: #2C3D55;
+  background-image: url('../assets/images/dark-wood2.jpg'); 
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Q3. Style the .container div */
+.container {
+    width: 950px; 
+    margin: 5px auto; 
+    background-color: #DFDFE2; 
+  }
+
+
+/* Q4. Style elements with class "content" */
+.content {
+    line-height: 1.4em; 
+    padding: 10px; 
+  }
+
+/* Q5. Style header, nav, and footer elements */
+header, nav, footer {
+    background-color: #2C3D55; 
+    color: #DFDFE2; 
+  }
+
+
+/* Q6. Style ul inside nav */
+nav ul {
+    margin: 0;
+    padding: 5px;
+  }
+
+
+/* Q7. Style list items in the main navigation */
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+
+/* Q8. Style anchor tags in the main navigation list items */
+nav ul li a:link {
+  color: #DFDFE2; 
+}
+
+nav ul li a:visited {
+  color: #9E9CAB; 
+}
+
+nav ul li a:hover {
+  color: #536271; 
+}
+
+nav ul li a:active {
+  color: #3E4C5E; 
+}
+
+/* Q9. Style all anchor elements */
+a {
+    color: #6A6779; /* Replace with your preferred color */
+    text-decoration: none; /* Remove underline */
+  }
+
+/* Q10. Style h1, h2, and h3 headings */
+h1, h2, h3 {
+  margin: 10px; 
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #2C3D55; /* Replace with your preferred dark color for h1 */
+}
+
+h2 {
+  color: #3E4C5E; /* Replace with your preferred mid-color for h2 */
+}
+
+h3 {
+  color: #536271; /* Replace with your preferred light color for h3 */
+}
+
+/* Q11. Style the .img-centre class */
+.img-centre {
+  display: block; 
+  margin: 5px auto; 
+  padding: 2px; 
+}
+
+/* Q12. Style the <audio> and video <elements> */
+audio, video {
+    display: block;
+    margin: 10px auto; 
+}
+
+/* Q13. Style the <table> element */
+table {
+  width: 800px; 
+  margin: 10px auto;
+  border-collapse: collapse; 
+}
+
+/* Q14. Style <td> and <th> elements in any table */
+table td, table th {
+    border: 1px solid #2C3D55; 
+    padding: 2px 5px; 
+    background-color: #DCE0E5; 
+  }
+
+
+/* Q15. Style <th> inside any table and td inside tfoot */
+table th, tfoot td {
+    text-transform: uppercase; 
+    background-color: #3E4C5E;
+    color: #DFDFE2; 
+  }
+
+/* Q16. Style <dt> elements and make them bold */
+dt {
+    font-weight: bold;
+  }
+
+/* Q17. Style <footer> elements */
+footer {
+    font-size: 80%;
+    text-align: center; 
+    padding: 1px 0; 
+  }
+
+/* Q18. Style <iframe> elements */
+iframe {
+    display: block; 
+    margin: 10px auto; 
+  }
+
+/* Q19. Style <fieldset> elements */
+fieldset {
+    width: 500px; 
+    margin: 20px auto; 
+    border: 2px solid #3E4C5E; 
+    background-color: #DCE0E5; 
+  }
+
+/* Q20. Style <legend> elements */
+legend {
+  font-style: italic;
+  color: #DCE0E5;
+  background-color: #3E4C5E;
+  margin: 0 10px;
+  padding: 0 5px;
+  border: 2px solid #2C3D55; 
+  border-radius: 10px;
+}
+
+/* Q21. Style <input> elements with type="submit" */
+input[type="submit"] {
+    border: 2px solid #3E4C5E; /* Border with style (customize as needed) */
+    padding: 5px; /* 5px padding on all sides */
+    background-color: #2C3D55; /* Background color (customize as needed) */
+    color: #DCE0E5; /* Text color (customize as needed) */
+  }
+
+/* Q22. Style <input> elements with type="submit" on hover */
+input[type="submit"]:hover {
+    background-color: #9E9CAB; /* Change background color on hover (customize as needed) */
+    color: #2C3D55; /* Change text color on hover (customize as needed) */
+    cursor: pointer; /* Change cursor to a hand icon */
+  }
